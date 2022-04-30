@@ -1,1 +1,1 @@
-print(f'{input()}+??!')
+print(f'{input()}??!')
