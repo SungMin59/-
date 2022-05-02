@@ -1,7 +1,4 @@
 import sys
-
 A, B = sys.stdin.readline().split()
-print(int(A)*int(B[2]))
-print(int(A)*int(B[1]))
-print(int(A)*int(B[0]))
-print(int(A)*int(B))
+A, B = map(int,A,B)
+print(A*B[2],A*B[1],A*B[0],A*B,sep='\n')
