@@ -1,5 +1,3 @@
-import sys
-A, B = sys.stdin.readline().split()
-A = int(A)
-B = map(int,B)
-print(A*B[2],A*B[1],A*B[0],A*B,sep='\n')
+A,B=int(input()),input()
+t=list(map(lambdax:int(x),B))
+print(A*t[2],A*t[1],A*t[0],A*int(B),sep='\n')
