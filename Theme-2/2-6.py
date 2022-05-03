@@ -5,6 +5,6 @@ if B+C<60:
 	B+=C
 else:
 	B-=60-C
-	A+=1+C//60
+	A+=C//60
 A-=24*(A//24)
 print(A,B)
