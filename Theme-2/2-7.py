@@ -1,5 +1,5 @@
 import sys
-#백트래킹
+
 A,B,C=map(int,sys.stdin.readline().split()))
 if A==B==C:
 	print(10000+A*1000)
