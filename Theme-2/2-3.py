@@ -1,5 +1,5 @@
 n=int(input())
-if n%400==0 and (n%100!=0or n%4==0):
+if n%400==0 and (n%100!=0 or n%4==0):
 	print(1)
 else:
 	print(0)
