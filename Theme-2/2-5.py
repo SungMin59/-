@@ -9,3 +9,4 @@ else:
 		A=23
 	else:
 		A-=1
+print(A,B)
