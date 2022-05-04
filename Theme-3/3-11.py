@@ -5,4 +5,4 @@ arr = []
 for i in inp:
 	if X<i:
 		arr.append(i)
-		
+print(i)
